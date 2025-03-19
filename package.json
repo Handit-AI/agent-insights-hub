@@ -1,0 +1,33 @@
+{
+  "name": "handit-agent-chat",
+  "description": "A Motia-based agent that provides insights about other agents using RAG",
+  "scripts": {
+    "dev": "motia dev",
+    "dev:debug": "motia dev --debug",
+    "generate:config": "motia get-config --output ./",
+    "test:filters": "ts-node scripts/test-filter-queries.ts"
+  },
+  "keywords": [
+    "motia",
+    "agent",
+    "rag",
+    "pinecone",
+    "openai"
+  ],
+  "dependencies": {
+    "@handit.ai/node": "^1.0.0",
+    "@motiadev/core": "0.1.0-beta.10",
+    "@motiadev/workbench": "0.1.0-beta.10",
+    "@pinecone-database/pinecone": "^2.0.0",
+    "chalk": "^4.1.2",
+    "motia": "0.1.0-beta.10",
+    "openai": "^4.36.2",
+    "react": "^19.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

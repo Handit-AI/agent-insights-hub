@@ -1,0 +1,24 @@
+{
+  "name": "handit-pinecone-uploader",
+  "version": "1.0.0",
+  "description": "Script to upload HandIt agent data to Pinecone",
+  "main": "pinecone-data-upload.ts",
+  "scripts": {
+    "start": "ts-node pinecone-data-upload.ts",
+    "start:ignore-types": "ts-node --transpile-only pinecone-data-upload.ts",
+    "verify": "ts-node verify-connection.ts",
+    "verify:ignore-types": "ts-node --transpile-only verify-connection.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^2.0.0",
+    "csv-parse": "^5.5.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.36.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+} 

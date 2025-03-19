@@ -1,0 +1,32 @@
+{
+  "agent-chat": {
+    "steps/message-api.step.ts": {
+      "x": -219.12718786464416,
+      "y": 0
+    },
+    "steps/openai-generation.step.ts": {
+      "x": -282.41365227537926,
+      "y": 566.2077012835472
+    },
+    "steps/pinecone-retrieval.step.ts": {
+      "x": 308.49474912485414,
+      "y": 537.0455075845974
+    },
+    "steps/preprocess-message.step.ts": {
+      "x": -239.22987164527424,
+      "y": 268.4247374562427
+    },
+    "steps/response-handler.step.ts": {
+      "x": -44.35880980163361,
+      "y": 701.5449241540256
+    },
+    "steps/filter-extraction.step.ts": {
+      "x": 283.6091015169195,
+      "y": 274.9964994165694
+    },
+    "steps/flow-completion.step.ts": {
+      "x": 422.5,
+      "y": 784
+    }
+  }
+}
